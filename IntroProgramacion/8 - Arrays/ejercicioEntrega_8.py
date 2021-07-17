@@ -31,7 +31,7 @@ print(f'El valor minimo es {minValor} y su indice en el array es {posicionMinVal
 sumaValoresIndicePar = 0
 for indice in range(0, 12, 2):
     sumaValoresIndicePar += arrayEjercicio[indice]
-promedioIndicePar = sumaValoresIndicePar / 7 #Son 7 valores pares. Hay que contar al 0.
+promedioIndicePar = sumaValoresIndicePar / 7 #Son 7 indices pares. Hay que contar al 0.
 print(f'\nEl promedio de los valores en indices pares es:{promedioIndicePar}')
 
 #Insertamos la mitad del elemento maximo despues de este
