@@ -115,4 +115,5 @@ if __name__ == '__main__':
     print(seteadorCeros(array_B, indices_maximo_B[-1]))
 
     print(promedioArray(array_C))
+
     print(contadorMayoresValor(array_C, promedioArray(array_C)))
