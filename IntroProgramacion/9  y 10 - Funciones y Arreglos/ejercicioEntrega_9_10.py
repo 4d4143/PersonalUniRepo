@@ -55,7 +55,7 @@ def mostrarMultiplosDiez(arrayFuente):
     if len(tempArray) > 0:
         print(tempArray)
     else:
-        print("No hay multiplos de 10 en el array introducido!")
+        print("No hay multiplos de 10 entre los valores introducidos!")
 
 def helperContarElemento(arrayObjetivo, elementoObjetivo):
     resultadoContador = 0
@@ -91,6 +91,5 @@ mostrarMultiplosDiez(arrayEjercicio)
 print("\nSi dentro de esos multiplos de 5 eliminamos al valor minimo, se veria asi:")
 eliminadorValoresMinimos(arrayEjercicio)
 print(arrayEjercicio)
-
 
 
